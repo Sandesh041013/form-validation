@@ -1,0 +1,134 @@
+
+body{
+    font-family: sans-serif;
+}
+.wrap{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+    height: 500px;
+    width: 700px;
+}
+body{
+    background-color: rgb(10, 169, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.box{
+    background-color: rgb(250, 241, 241);
+    /* display: flex;
+    flex-direction: row; */
+    width: 50%;
+   border-radius: 10px 10px 10px 10px;
+    gap: 20px;
+    box-shadow: 5px 5px ;
+}
+.boxx{
+    background-color: rgba(29, 67, 155, 0.88);
+    width: 50%;
+    /* text-align: center; */
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-left: 30px; */
+    box-shadow: 5px 5px;
+}
+.fname input{
+    border-radius: 5px;
+    width: 240px;
+    /* display: flex;
+    flex-direction: row; */
+   
+}
+.btn button{
+    cursor: pointer;
+    width: 100px;
+    margin-top: 40px;
+    background-color:rgba(37, 68, 140, 0.88) ;
+    padding: 10px;
+    border-radius: 5px 0px 5px 0px;
+    border: none;
+    margin-left: 120px;
+    margin-bottom: 10px;
+}
+.box input{
+    /* margin-left: 50px; */
+    padding: 10px;
+    outline: none;
+    border: 1px solid gray;
+}
+.button button{
+    cursor: pointer;
+    background-color:rgb(245, 228, 221);
+    padding: 10px;
+    border-radius: 5px 0px 5px 0px;
+    border: none;
+    width: 150px;
+}
+.password input{
+    width: 240px;
+    border-radius: 5px;
+    /* margin-left: 20px; */
+}
+h1{ 
+    font-size: 30px;
+    font-family: monospace;
+}
+.lname{
+   
+    margin-left: 20px;
+}
+.lname input{
+    border-radius: 5px;
+height: 10px;
+width: 100px;
+/* margin-left: 50px; */
+}
+.boxes{
+    display: flex;
+}
+.fname{
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.email{
+    margin-left: 40px;
+
+}
+.email input{
+    border-radius: 5px;
+    width: 240px;
+}
+.sec{
+    display: flex;
+    /* flex-direction: row; */
+}
+.checkbox{
+margin: 20px 0px 0px 30px;
+}
+.boxx h1{
+color: white;
+}
+.box h1{
+   display: flex;
+   justify-content: center;
+   text-align: center;
+    color: rgba(23, 61, 150, 0.926);
+}
+.password{
+    margin-left: 40px;
+}
+#usernameerror{
+    color: red;
+}
+#mailerror{
+    color: red;
+}
+#passerror{
+    color: red;
+}

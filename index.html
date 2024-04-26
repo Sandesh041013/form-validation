@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+    <div class="main">
+        <div class="wrap">
+            <!-- <div class="boxx">
+         <h1>INFORMATION</h1>
+         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste autem, laboriosam aut iure sequi provident consequatur culpa sapiente cum officiis quis officia, illo libero debitis corporis expedita nihil exercitationem. Placeat?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, fuga? Placeat distinctio delectus ea deleniti iure velit sint, labore neque quia repudiandae dignissimos id. Perspiciatis ipsam aperiam sequi nulla iste.</p>
+         <div class="button" id="button">
+            <button>Have An Account</button>
+
+         </div>
+            </div> -->
+            <div class="box">
+                <h1> REGISTER FORM</h1>
+                <div class="boxes">
+                <div class="fname">
+                  <p>First Name</p>
+                  <p id="usernameerror"></p>
+                    <input type="username" onchange="username(this.value)">
+                </div>
+                 </div>
+                <div class="email">
+                    <p > Your email</p>
+                    <p id="mailerror"></p>
+                  <input type="email" onchange="email(this.value)">
+                </div>
+                <div class="sec">
+                    <div class="password">
+                        <p >Password</p>
+                        <p id="passerror"></p>
+                         <input type="password" onchange="password(this.value)" >
+                     </div>
+                </div>
+            <div class="checkbox">
+              <input type="checkbox">  I agree to the
+              <a href="#"> Term and Conditions</a>
+            </div>
+            <div class="btn" >
+             <button onclick="Button()"> Register</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="new.js"></script>
+</body>
+</html>
